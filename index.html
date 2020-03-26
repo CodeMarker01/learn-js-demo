@@ -7,17 +7,12 @@
   </head>
   <body>
     <script>
-      let quang = {
-        name: "Quang dep trai",
-        depTraiLoiTaiAi: true,
-        age: 22,
-        chess: function() {
-          document.write("phao dau ma doi si la gian diep yeah!");
-        }
-      };
-      document.write(quang.name);
-      document.write(quang.chess);
-      quang.chess();
+      let quang =
+        "Hello xin chao cac ban, minh ten quang, dang nghien cuu javascript";
+      document.writeln(quang.length);
+      document.writeln(quang.split(" "));
+      document.writeln(quang.substring(0, 22));
+      document.write(quang.includes("Hello"));
     </script>
   </body>
 </html>
